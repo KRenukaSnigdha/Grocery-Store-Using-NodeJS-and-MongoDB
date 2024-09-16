@@ -7,10 +7,19 @@ Although this website has not implemented the digital payment functionalities ye
 
 1. APPLICATION FUNCTIOANILITIES:
 • Users can browse the store, add items to the cart and checkout as either Guest Users or as Registered Users by creating a user account
+
+
 • Email and password fields are validated during user sign-in/signup process to ensure criteria are met .
+
+
 • User passwords are kept secured by storing only the password hashes into the database.
+
+
 • Users can view the detailed description of a product by clicking on the product title.
+
+
 • This website supports pagination and each page displays up to 15 products at a time.
+
 • Users have the option to search and filter products.
 o This website supports both partial and full search.
 o Users can filter products by categories and/or by price range
@@ -21,7 +30,7 @@ o Users can filter products by categories and/or by price range
 details such as title, price, product description, price description and uploading product images.
 • Admin users is also provided with Search Functionality to search products and have the option to edit, delete(soft delete) and update products.
 
-2. DATABASE DESIGN
+3. DATABASE DESIGN
 In this Project, there are 3 Data Models that we use to store Data in MongoDB. Those models are: 1.User Model: For Storing the User Details(If the User has signed up with GreenMart!). 2.Product Model: For storing Product Data with all it’s attributes. 3.Order Model: For storing the Order details including some attributes of User and the Products ordered.Below are the attributes for each of the respective Models mentioned above:
     Product Model (All the attributes are mandatory except Price Description):  
 
@@ -60,5 +69,5 @@ In this Project, there are 3 Data Models that we use to store Data in MongoDB. T
             2. Password: It is stored as the hash value in the DB.
             3. Is_admin: It is used to verify if an user logged in is Admin or not. If it is Admin user ,
                     the extra feature of adding/updating/deleting product is included in the NavBar.
-3. LANGUAGES/FRAMEWORK USED
+4. LANGUAGES/FRAMEWORK USED
 Node.js, Express.js, JavaScript/jQuery, Handlebars, Bootstrap and MongoDB are used. Object modeling is done using Mongoose. In order to persist session data, express-session module is used.
