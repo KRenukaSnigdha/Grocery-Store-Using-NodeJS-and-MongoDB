@@ -6,9 +6,7 @@ This website has been designed to make purchase of groceries convenient for the 
 Although this website has not implemented the digital payment functionalities yet, but it does offer other features which, we hope, the users will surely enjoy. Some of the major functionalities of this website are provided below.
 
 1. APPLICATION FUNCTIOANILITIES:
-• Users can browse the store, add items to the cart and checkout as either Guest Users or as Registered Users by creating a user account
-
-
+• Users can browse the store, add items to the cart and checkout as either Guest Users or as Registered Users by creating a user accoun
 • Email and password fields are validated during user sign-in/signup process to ensure criteria are met .
 
 
