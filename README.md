@@ -1,4 +1,3 @@
-# Grocery-Store-Using-NodeJS-and-MongoDB
 Welcome to Green Mart Groceries!
 This website has been designed to make purchase of groceries convenient for the customers with a user-friendly user interface. Currently the online store offers products from fruits, vegetables and personal care categories only.
 
