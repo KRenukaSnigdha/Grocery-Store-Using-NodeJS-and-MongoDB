@@ -1,4 +1,6 @@
 Welcome to Green Mart Groceries!
+
+
 This website has been designed to make purchase of groceries convenient for the customers with a user-friendly user interface. Currently the online store offers products from fruits, vegetables and personal care categories only.
 
 Although this website has not implemented the digital payment functionalities yet, but it does offer other features which, we hope, the users will surely enjoy. Some of the major functionalities of this website are provided below.
